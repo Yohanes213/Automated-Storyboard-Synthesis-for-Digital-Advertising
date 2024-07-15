@@ -86,9 +86,9 @@ def combine_images_grid(base_image, overlays):
 if __name__ == '__main__':
 
     # Paths to images
-    car_image_path = 'data/0a18978cdc8b64f900b0db6a297eb99d/end-copy.jpg'
-    base_image_path = 'data/0a59be2e7dd53d6de11a10ce3649c081/landing_1.png'
-    cta_image_path = 'data/0a18978cdc8b64f900b0db6a297eb99d/cta.png'
+    car_image_path = '../data/0a18978cdc8b64f900b0db6a297eb99d/end-copy.jpg'
+    base_image_path = '../data/0a59be2e7dd53d6de11a10ce3649c081/landing_1.png'
+    cta_image_path = '../data/0a18978cdc8b64f900b0db6a297eb99d/cta.png'
 
     # Load the images using cv2.imread
     base_image = cv2.imread(base_image_path)
