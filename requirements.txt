@@ -1,6 +1,6 @@
 pandas
 matplotlib
 seaborn
-pyautogen[llm]
+pyautogen
 opencv-python
-pytesseract
+ultralytics
