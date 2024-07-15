@@ -3,4 +3,4 @@ matplotlib
 seaborn
 pyautogen[llm]
 opencv-python
-pytesseract
+ultralytics

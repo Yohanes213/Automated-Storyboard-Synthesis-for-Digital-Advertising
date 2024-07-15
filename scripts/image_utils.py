@@ -14,3 +14,6 @@ def extract_text_on_image(image_location):
         logging.error(f"An unexpected error occurred while extracting text from image: {e}")
         return []
     
+
+if __name__ == "__main__":
+    print(extract_text_on_image('data/0a59be2e7dd53d6de11a10ce3649c081/cta.png'))

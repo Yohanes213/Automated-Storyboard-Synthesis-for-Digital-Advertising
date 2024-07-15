@@ -1,0 +1,7 @@
+[
+      {
+        "model": "gpt-4",
+        "api_key": "${OPENAI_API_KEY}",
+        "api_base": "https://api.openai.com/v1"
+      }
+]
