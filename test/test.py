@@ -6,10 +6,6 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join("../Automated-Storyboard-Synthesis-for-Digital-Advertising/scripts")))
-# sys.path.append(os.path.abspath(os.path.join("../Scalable-Backtesting-Infrastructure/mlflow")))
-
-# from kafka_consumer import consume_backtest_request
-# from kafka_producer import send_ba
 from image_compose import extract_text_on_image, resize_to_fit, combine_images_grid
 
 class TestImageProcessing(unittest.TestCase):
