@@ -4,3 +4,4 @@ seaborn
 pyautogen
 opencv-python
 ultralytics
+google-generativeai
