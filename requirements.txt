@@ -6,3 +6,4 @@ opencv-python
 ultralytics
 google-generativeai
 black
+pytesseract
